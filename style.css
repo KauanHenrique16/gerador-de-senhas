@@ -30,7 +30,7 @@ body{
 
 }
 
-conteudo-senha{
+.conteudo-senha{
    background-color: var(--azul-claro);
    padding: 20px;
    border-radius: 20px;
@@ -51,9 +51,26 @@ conteudo-senha{
    margin: 50px;
 
 }
-@media screen and(min-width:768px{}
+@media screen and(min-width:768px){}
    
    .parametro-senha__botao{
     background-color: var(--ouro);
-    boder
+    border:2px solid var(--rosa);
+    padding: 10px;
+    cursor: pointer;
+
    }
+   .parametro-senha__texto{
+ 
+    padding: 10px;  
+    border-top: 2px  solid var(--rosa);
+    background-color: var(--ouro);
+    font-size: 50px;
+   }
+    .parame-senha-titulo{
+    font-family: var(--font-titulo);
+    margin: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    }
