@@ -102,10 +102,10 @@ body{
     .barra{
     background-color: var(--azul-claro);
     height: 30px;
-    width: 100px;
+    width: 100%;
     }
     .fraca{
-    width:25px ;
+    width:25% ;
     background-color: red;
    }
    .parametro-senha-textos{
